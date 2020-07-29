@@ -134,14 +134,14 @@ initList count res
 concatRight :: Int -> [Char] -> [Char] -> [Char] -> Int -> Int -> Int -> [Char]
 concatRight size ini res line currentIndex startIndex endIndex
     | (size <= currentIndex)                                                            = res
-    | ((currentIndex >= startIndex) && (currentIndex < endIndex) && (length line /= 0)) = concatRight (size) (tail ini) ((head line):res) (tail line) (currentIndex + 1) startIndex endIndex            --check le '<'
+    | ((currentIndex >= startIndex) && (currentIndex < endIndex) && (length line /= 0)) = concatRight (size) (tail ini) ((head line):res) (tail line) (currentIndex + 1) startIndex endIndex
     | (length ini /= 0)                                                                 = concatRight (size) (tail ini) ((head ini):res) line (currentIndex + 1) startIndex endIndex
     | otherwise                                                                         = res
 
 concatSpe :: Int -> [Char] -> [Char] -> [Char] -> Int -> Int -> Int -> [Char]
 concatSpe size ini res line currentIndex startIndex endIndex
     | (size <= currentIndex)                            = res
-    | ((currentIndex < endIndex) && (length line /= 0)) = concatRight (size) (tail ini) ((head line):res) (tail line) (currentIndex + 1) startIndex endIndex            --check le '<'
+    | ((currentIndex < endIndex) && (length line /= 0)) = concatRight (size) (tail ini) ((head line):res) (tail line) (currentIndex + 1) startIndex endIndex
     | (length ini /= 0)                                 = concatRight (size) (tail ini) ((head ini):res) line (currentIndex + 1) startIndex endIndex
     | otherwise                                         = res
     

@@ -8,7 +8,7 @@ In mathematics and computability theory, an elementary cellular automaton is a o
 ## Usage:
 - To build (Stack at least 2.1.3 is mandatory):
 ```
-make
+$ make
 ```
 - Binaire parameter:
 ```

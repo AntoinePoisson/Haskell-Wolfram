@@ -11,13 +11,13 @@ make
 ```
 - Binaire parameter:
 ```
-• –rule : the ruleset to use (ryule 30, rule 90 and rule 110)
-• –start : the generation number at which to start the display. The default value is 0.
-• –lines : the number of lines to display. When homited, the program never stops.
-• –window : the number of cells to display on each line (line width). If even,
-the central cell is displayed in the next cell on the right. The default value is 80.
-• –move : a translation to apply on the window. If negative, the window is translated to the left.
-If positive, it’s translated to the right.
+  –rule : the ruleset to use (ryule 30, rule 90 and rule 110)
+  –start : the generation number at which to start the display. The default value is 0.
+  –lines : the number of lines to display. When homited, the program never stops.
+  –window : the number of cells to display on each line (line width). If even,
+   the central cell is displayed in the next cell on the right. The default value is 80.
+  –move : a translation to apply on the window. If negative, the window is translated to the left.
+   If positive, it’s translated to the right.
 ```
 
 ## Example:

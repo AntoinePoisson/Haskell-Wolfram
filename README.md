@@ -2,7 +2,7 @@
 ## Purpose:
 <img src="https://i1.wp.com/atlas.wolfram.com/01/01/30/01_01_103_30.gif" alt="wolframn" /><br/>
 It's 2nd year project of Epitech.<br/>
-The goal of this project is to implement Wolfram’s elementary cellular automaton (below) in Haskell.<br/>
+The goal of this project is to implement Wolfram’s elementary cellular automaton (above) in Haskell.<br/>
 
 ## Usage:
 - To build (Stack at least 2.1.3 is mandatory):

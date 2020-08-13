@@ -77,4 +77,4 @@ $ ./ wolfram -- rule 110 -- lines 45
 ```
 ## Note:
 Grade A<br/>
-Result moulinette Epitech: 100%
+Epitech Moulinette: 100%

@@ -1,7 +1,7 @@
 # Haskell-Wolfram
 ## Purpose:
 It's 2nd year project of Epitech.<br/>
-The goal of this project is to implement Wolfram’s elementary cellular automaton (berlow) in Haskell.<br/>
+The goal of this project is to implement Wolfram’s elementary cellular automaton (below) in Haskell.<br/>
 <img src="https://i1.wp.com/atlas.wolfram.com/01/01/30/01_01_103_30.gif" alt="wolframn" /><br/>
 In mathematics and computability theory, an elementary cellular automaton is a one-dimensional cellular automaton where there are two possible states (labeled 0 and 1) and the rule to determine the state of a cell in the next generation depends only on the current state of the cell and its two immediate neighbors.<br/>
 
